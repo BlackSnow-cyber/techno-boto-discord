@@ -9,8 +9,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (msg.content === 'Slaw') {
+    msg.reply('Wara voice barez');
   }
     if (msg.channel.id === TWITCH_CHANNEL_ID) {
       console.log('is twitch channel')
